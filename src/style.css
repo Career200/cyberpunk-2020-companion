@@ -213,7 +213,6 @@ a {
 }
 .wrapper a {
   display: block;
-  font-size: 96px;
   line-height: 100%;
 }
 .wrapper a.medbox {
@@ -239,7 +238,8 @@ a {
     height: 150px;
   }
 }
-.wrapper .widebox {
+.wrapper a.widebox {
+  font-size: 96px;
   width: 100%;
   max-width: 1236px;
   min-width: 100%;
@@ -285,4 +285,20 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+a[href=NCmap\.html]:hover .widepreview {
+  filter: brightness(100%);
+  box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #7B5529, 0 0 20px #7B5529, 0 0 30px #920000, 0 0 40px #920000;
+}
+
+.widepreview {
+  margin: 20px auto 0;
+  width: 90%;
+  height: 80px;
+  border-radius: 20px;
+  background: #7B5529 url(../maps/maps/2020-map.png);
+  background-position: center 45%;
+  background-size: 100% auto;
+  filter: brightness(65%);
 }/*# sourceMappingURL=style.css.map */
