@@ -51,7 +51,7 @@ a:hover {
 }
 
 .mgleft {
-  margin-left: 200px;
+  margin-left: 13vw;
 }
 
 .bang {
@@ -145,6 +145,7 @@ a:hover {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.47);
   font-size: 140px;
+  z-index: 2;
 }
 .banner .skid-anim {
   color: #920000;
@@ -301,6 +302,7 @@ a:hover {
 .blogimg img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 a:hover .widepreview {

@@ -48,7 +48,7 @@ a{
   }
 }
 .mgleft{
-  margin-left: 200px;
+  margin-left: 13vw;
 }
 .bang{
   position: fixed;
@@ -94,6 +94,7 @@ a{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.47);
   font-size: 140px;
+  z-index: 2;
   .skid-anim{
     color: #920000;
     transition: 1s;
@@ -213,6 +214,7 @@ a{
   img{
     width: 100%;
     height: auto;
+    border-radius: 20px;
   }
 }
 
