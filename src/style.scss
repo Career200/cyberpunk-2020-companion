@@ -41,8 +41,11 @@ text-align: center;
 a{
   text-decoration: none;
   font-family: 'Zen Dots', cursive;
-  color: #920000;
+  color: #d49a9a;
   text-shadow: 1px -1px 4px #7B5529;
+  &:hover{
+    letter-spacing: 0.15em;
+  }
 }
 .mgleft{
   margin-left: 200px;
@@ -87,11 +90,12 @@ a{
 }
 .banner{
   position: fixed;
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.47);
   font-size: 140px;
   .skid-anim{
+    color: #920000;
     transition: 1s;
     text-shadow: 4px 0 0 #a85656, 8px 0 0 #a85656, 12px 0 0 #a85656, 16px 0 0 #a85656;
     animation: skid 2s ease-in infinite alternate;
@@ -114,8 +118,11 @@ a{
         float: left;
         width: 1440px;
         font-family: 'Silkscreen', cursive;
+        color: #920000;
         font-size: 140px;
-        white-space: nowrap;
+        white-space: nowrap;  &:hover{
+          letter-spacing: initial;
+        }
       }
     }
   }
@@ -130,7 +137,7 @@ a{
 .wrapper{
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 300px;
+  padding-top: 200px;
   display: flex;
   align-items: center;
   flex-flow: column nowrap;
@@ -179,19 +186,23 @@ a{
 }
 .chars{
   background:  #FFE195 url(img/charPart.png) no-repeat;
+  color: #920000;
 }.lifepath{
   background:  #FFE195 url(img/lifepathPart.png) no-repeat;
+  color: #920000;
 }.shop{
   background:  #FFE195 url(img/shopPart.png) no-repeat;
+  color: #920000;
 }
 .maps{
     background:  #FFE195 url(img/mapPart.png) no-repeat;
+  color: #920000;
 }
 
 .blogentry{
   width: 80%;
   max-width: 1440px;
-  color: rgb(212, 154, 154);
+  color: #d49a9a;
   padding: 20px;
   font-size: 1.2rem;
 }
@@ -199,9 +210,13 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
 
-a[href="NCmap-leaflet/NCmap.html"]:hover .widepreview{
+a:hover .widepreview{
 filter: brightness(100%);
 box-shadow:  0 0 5px #FFF, 0 0 10px #FFF,
 0 0 15px #7B5529,
@@ -214,9 +229,10 @@ box-shadow:  0 0 5px #FFF, 0 0 10px #FFF,
   width: 90%;
   height: 80px;
   border-radius: 20px;
-  background: #7B5529 url(../maps/maps/2020-map.png);
   background-position: center 45%;
   background-size: 100% auto;
   filter: brightness(65%);
-
+}
+.NCmap{
+  background: #7B5529 url(../maps/maps/2020-map.png);
 }
