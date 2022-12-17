@@ -322,4 +322,24 @@ a:hover .widepreview {
 
 .NCmap {
   background: #7B5529 url(../maps/maps/2020-map.png);
+}
+
+.mapbox {
+  width: 95vw;
+  display: flex;
+}
+.mapbox .map {
+  flex: 2 0 65%;
+  height: 100%;
+  max-height: 1280px;
+  overflow: scroll;
+  border-radius: 20px 0 0 0;
+}
+.mapbox .legend {
+  flex: 0 1 450px;
+}
+.mapbox .legend img {
+  width: 100%;
+  height: auto;
+  border-radius: 0 20px 20px 0;
 }/*# sourceMappingURL=style.css.map */
