@@ -442,4 +442,15 @@ div.anchor {
 
 .wrapper:has(#nomad:hover) .nomad-img {
   display: flex;
+}
+
+.modal.vis {
+  display: block;
+  height: 50vh;
+}
+.modal.vis textarea {
+  font-size: 1.1rem;
+  height: 100%;
+  width: 20vw;
+  min-width: 150px;
 }/*# sourceMappingURL=style.css.map */
