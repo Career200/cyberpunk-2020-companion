@@ -195,6 +195,9 @@ a{
     border-radius: 20px;
     background-color: rgba(47, 79, 79, 0.63);
     background-size: 603px 213px;
+    &:last-of-type{
+      margin-bottom: 50px;
+    }
   }
   .flex-container{
     width: 100%;
@@ -292,4 +295,43 @@ box-shadow:  0 0 5px #FFF, 0 0 10px #FFF,
   font-size: 24px;
   line-height: 150%;
   }
+}
+div.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}
+
+.modal {
+  top: 50%;
+  bottom: 20%;
+  right: 30px;
+  width: fit-content;
+  padding: 20px;
+  position: fixed;
+  display: none;
+  background-color: #002132b8;
+  border-radius: 20px;
+}
+.wrapper:has(#rockerboy:hover) .rocker-img{
+  display: flex;
+}.wrapper:has(#solo:hover) .solo-img{
+  display: flex;
+}.wrapper:has(#netrunner:hover) .net-img{
+  display: flex;
+}.wrapper:has(#techie:hover) .tech-img{
+  display: flex;
+}.wrapper:has(#medtech:hover) .med-img{
+  display: flex;
+}.wrapper:has(#media:hover) .media-img{
+  display: flex;
+}.wrapper:has(#cop:hover) .cop-img{
+  display: flex;
+}.wrapper:has(#corporate:hover) .corp-img{
+  display: flex;
+}.wrapper:has(#fixer:hover) .fixer-img{
+  display: flex;
+}.wrapper:has(#nomad:hover) .nomad-img{
+  display: flex;
 }
