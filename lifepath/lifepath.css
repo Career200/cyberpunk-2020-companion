@@ -1,0 +1,45 @@
+*{
+  outline: 1px solid red;
+}
+#lifepathWindow{
+  position: relative;
+  height: 80vh;
+  width: 95vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgba(230, 209, 171, 0.827);
+  overflow: hidden;
+}
+#character{
+  width: 100%;
+  height: 25vh;
+  background-color: rgba(5, 94, 94, 0.8);
+  color: white;
+}
+#character input{
+  height: 36px;
+  font-size: 36px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+#start{
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background-color: rgba(233, 150, 122, 0.725);
+  font-size: 54px;
+  text-align: center;
+  line-height: 40vh;
+}
+#start:hover{
+  cursor: pointer;
+  font-size: 64px;
+  text-shadow: 1px 1px 1px darkred;
+  background-color: rgb(233, 150, 122);
+}
+
+.info{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+}

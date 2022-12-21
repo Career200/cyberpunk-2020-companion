@@ -8,15 +8,23 @@
   <link rel="icon" href="src/img/logo.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&family=Diplomata+SC&family=Faster+One&family=Libre+Barcode+39+Extended+Text&family=Major+Mono+Display&family=Orbitron&family=Silkscreen:wght@400;700&family=Stalinist+One&family=ZCOOL+KuaiLe&family=Zen+Dots&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='../src/style.css'>
+  <link rel='stylesheet' href='lifepath.css'>
   <script src='../src/script.js' defer></script>
+  <script src='lifepath-generator.js' defer></script>
 </head>
 <body>
   <div class="banner">
     <a href="../main/index.html" class="skid-anim mgleft">Return</a>
   </div>
   <div id="pad"></div>
-  <div id="lifepath-window">
-
+  <div id="lifepathWindow">
+    <div id="character">
+      <h3><br> Character name <input type="text" name="name" id="name"></h3>
+      <div class="info">
+      </div>
+    </div>
+    <div id="start" onclick="startGenerator()">Create a lifepath
+    </div>
   </div>
   <div class="wrapper">
     <div class="blogentry box showmore"><label for="showscans">

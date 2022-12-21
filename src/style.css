@@ -166,6 +166,8 @@ a {
   z-index: 2;
 }
 .banner .skid-anim {
+  position: relative;
+  top: -20px;
   color: #920000;
   transition: 1s;
   text-shadow: 4px 0 0 #a85656, 8px 0 0 #a85656, 12px 0 0 #a85656, 16px 0 0 #a85656;
@@ -488,12 +490,4 @@ div.anchor {
 #pad {
   height: 150px;
   width: 100%;
-}
-
-#lifepath-window {
-  height: 80vh;
-  width: 95vw;
-  margin: 0 auto;
-  border-radius: 20px;
-  background-color: rgba(230, 209, 171, 0.827);
 }/*# sourceMappingURL=style.css.map */
