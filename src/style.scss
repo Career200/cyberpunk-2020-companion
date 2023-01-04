@@ -306,15 +306,25 @@ div.anchor {
 }
 
 .modal {
-  top: 50%;
+  bottom: 5%;
   right: 30px;
+  max-width: 40vw;
   width: fit-content;
   padding: 20px;
+  overflow: scroll;
   position: fixed;
   display: none;
   background-color: #002132b8;
   border-radius: 20px;
+  &.illustration:hover{
+    display: flex;
+  }
+  img{
+    height: fit-content;
+    width: auto;
+  }
 }
+.wrapper.roles{margin-left: 15px;}
 .wrapper:has(#rockerboy:hover) .rocker-img{
   display: flex;
 }.wrapper:has(#solo:hover) .solo-img{

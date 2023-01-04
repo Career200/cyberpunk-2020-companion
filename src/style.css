@@ -393,16 +393,31 @@ div.anchor {
 }
 
 .modal {
-  top: 50%;
+  bottom: 5%;
   right: 30px;
+  max-width: 40vw;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px;
+  overflow: scroll;
   position: fixed;
   display: none;
   background-color: rgba(0, 33, 50, 0.7215686275);
   border-radius: 20px;
+}
+.modal.illustration:hover {
+  display: flex;
+}
+.modal img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: auto;
+}
+
+.wrapper.roles {
+  margin-left: 15px;
 }
 
 .wrapper:has(#rockerboy:hover) .rocker-img {
