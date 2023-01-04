@@ -197,9 +197,6 @@ a{
     border-radius: 20px;
     background-color: rgba(47, 79, 79, 0.63);
     background-size: 603px 213px;
-    &:last-of-type{
-      margin-bottom: 50px;
-    }
   }
   .flex-container{
     width: 100%;
@@ -229,6 +226,9 @@ a{
   color: #d49a9a;
   padding: 20px;
   font-size: 1.2rem;
+  &:last-of-type{
+    margin-bottom: 50px;
+  }
 }
 .blogimg{
   display: flex;
