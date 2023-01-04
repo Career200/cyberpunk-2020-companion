@@ -307,8 +307,8 @@ div.anchor {
 
 .modal {
   bottom: 5%;
-  right: 30px;
-  max-width: 40vw;
+  right: 15px;
+  max-width: 45vw;
   width: fit-content;
   padding: 20px;
   overflow: scroll;
@@ -324,7 +324,9 @@ div.anchor {
     width: auto;
   }
 }
-.wrapper.roles{margin-left: 15px;}
+.wrapper.roles{
+  margin-left: 15px;
+align-items: initial;}
 .wrapper:has(#rockerboy:hover) .rocker-img{
   display: flex;
 }.wrapper:has(#solo:hover) .solo-img{

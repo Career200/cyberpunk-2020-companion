@@ -394,8 +394,8 @@ div.anchor {
 
 .modal {
   bottom: 5%;
-  right: 30px;
-  max-width: 40vw;
+  right: 15px;
+  max-width: 45vw;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -418,6 +418,7 @@ div.anchor {
 
 .wrapper.roles {
   margin-left: 15px;
+  align-items: initial;
 }
 
 .wrapper:has(#rockerboy:hover) .rocker-img {
