@@ -105,6 +105,27 @@ a{
   95%{opacity: 1;}
   100%{opacity: 0;}
 }
+.dice-widget{
+  position: absolute;
+  bottom: 250px;
+  left: 25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #804a19 url('/src/img/dice.png') 0 5px;
+  background-size: 100px;
+  filter: blur(0.5px);
+  &:hover{
+    height: 110px;
+    width: 110px;
+    background-size: 125px;
+  }
+}
+.pos-top{
+  bottom: initial;
+  top: 190px
+}
+
 .banner{
   position: fixed;
   height: 150px;

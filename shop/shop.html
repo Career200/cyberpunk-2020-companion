@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyberpunk 2020 companion</title>
-  <link rel="icon" href="src/img/logo.png" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&family=Diplomata+SC&family=Faster+One&family=Libre+Barcode+39+Extended+Text&family=Major+Mono+Display&family=Orbitron&family=Silkscreen:wght@400;700&family=Stalinist+One&family=ZCOOL+KuaiLe&family=Zen+Dots&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='../src/style.css'>
-  <script src='../src/script.js' defer></script>
-</head>
-<body>
-  <div class="banner">
-    <a href="../main/index.html" class="skid-anim mgleft">Return</a>
-</div>
-  <div class="wrapper">
-    <div class="blogentry blogimg box">
-      <img src="scans/2020guns.png" alt="cyberpunk 2020 guns list">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk 2020 companion</title>
+    <link rel="icon" href="src/img/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&family=Diplomata+SC&family=Faster+One&family=Libre+Barcode+39+Extended+Text&family=Major+Mono+Display&family=Orbitron&family=Silkscreen:wght@400;700&family=Stalinist+One&family=ZCOOL+KuaiLe&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+    <script src="../src/script.js" defer></script>
+  </head>
+  <body>
+    <div class="banner">
+      <a href="../main/index.html" class="skid-anim mgleft">Return</a>
     </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/2020guns2.png" alt="cyberpunk 2020 guns list">
+    <div class="wrapper">
+      <div class="blogentry blogimg box">
+        <img src="scans/2020guns.png" alt="cyberpunk 2020 guns list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/2020guns2.png" alt="cyberpunk 2020 guns list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img
+          src="scans/2020melee.png"
+          alt="cyberpunk 2020 melee weapons list"
+        />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/2020armor.png" alt="cyberpunk 2020 armor list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/2020gear.png" alt="cyberpunk 2020 gear list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/cyber1.png" alt="cyberpunk 2020 cyberware list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/cyber2.png" alt="cyberpunk 2020 cyberware list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/cyber3.png" alt="cyberpunk 2020 cyberware list" />
+      </div>
+      <div class="blogentry blogimg box">
+        <img src="scans/cyber4.png" alt="cyberpunk 2020 cyberware list" />
+      </div>
     </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/2020melee.png" alt="cyberpunk 2020 melee weapons list">
+    <div class="modal vis">
+      <h2 style="color: white">
+        <label for="shownotes"
+          ><input id="shownotes" type="checkbox" /> Notes:</label
+        >
+      </h2>
+      <textarea name="notes" id="shopnote" cols="30" rows="10"></textarea>
     </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/2020armor.png" alt="cyberpunk 2020 armor list">
-    </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/2020gear.png" alt="cyberpunk 2020 gear list">
-    </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/cyber1.png" alt="cyberpunk 2020 cyberware list">
-    </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/cyber2.png" alt="cyberpunk 2020 cyberware list">
-    </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/cyber3.png" alt="cyberpunk 2020 cyberware list">
-    </div>
-    <div class="blogentry blogimg box">
-      <img src="scans/cyber4.png" alt="cyberpunk 2020 cyberware list">
-    </div>
-  </div>
-  <div class="modal vis"><h2 style="color: white;"><label for="shownotes"><input id="shownotes" type="checkbox"> Notes:</label></h2><textarea name="notes" id="shopnote" cols="30" rows="10"></textarea></div>
-  <span class="bang"></span>
-  <span class="bang"></span>
-  <div class="dice-widget"></div>
-</body>
+    <span class="bang"></span>
+    <span class="bang"></span>
+    <div class="dice-widget" id="dice-widget"></div>
+  </body>
 </html>
