@@ -7,7 +7,7 @@ This is a tool for players and Referees to track character and world info, roll 
 The upcoming features/TODO list:
 
 1. Several pages, deployed: main, maps with Night City, New United States, parts of Europe and more, character sheets as a printable image, classes overview, lifepath generation scheme, filled character sheets for disposable gonks: DONE! Except for the disposables, but that'd be ready with the interactive character sheets
-2. Integrated dice widget: DONE! And I gotta say I enjoyed making it.
+2. Integrated dice widget: DONE! And I gotta say I enjoyed making it. TODO: highlight the crits
 3. Night City map based on leaflet.js with advanced features
 4. Interactive character sheet
 5. Interactive lifepath generator: In progress, paused
