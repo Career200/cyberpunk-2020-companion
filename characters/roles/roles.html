@@ -480,6 +480,24 @@
       </div>
     </div>
     <span class="bang"></span>
-    <div class="dice-widget" id="dice-widget"></div>
+    <div class="dice-window" id="dice-window">
+      <div class="throw-history" id="throw-history"></div>
+      <button class="make-roll" id="make-roll">Make a roll</button>
+      <button class="clear-history" id="clear-history">Clear history</button>
+      <aside>
+        <form class="lightswitch" id="lightswitch">
+          <input type="radio" id="d6" name="dice" value="6" checked />
+          <label for="d6" class="white-shadow">D6</label>
+          <input type="radio" id="d10" name="dice" value="10" />
+          <label for="d10" class="white-shadow">D10</label>
+        </form>
+        <div class="number-input">
+          <button class="decrement">-</button>
+          <input type="number" value="1" name="amount" class="white-shadow" />
+          <button class="increment">+</button>
+        </div>
+      </aside>
+    </div>
+    <div class="dice-widget white-shadow" id="dice-widget"></div>
   </body>
 </html>
