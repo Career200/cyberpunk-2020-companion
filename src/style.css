@@ -173,6 +173,13 @@ a {
   width: 110px;
   background-size: 125px;
 }
+@media (max-width: 1050px) {
+  .dice-widget {
+    bottom: 120px;
+    height: 50px;
+    width: 50px;
+  }
+}
 
 .pos-top {
   bottom: initial;
@@ -186,7 +193,7 @@ a {
 
 .dice-window {
   display: none;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: space-between;
   align-items: stretch;
   position: relative;
@@ -199,6 +206,7 @@ a {
 }
 .dice-window aside {
   margin-top: 10px;
+  padding: 0 15px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -223,24 +231,15 @@ a {
   text-align: center;
 }
 
-.make-roll {
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.clear-history {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
 .lightswitch {
   display: flex;
   align-items: center;
   gap: 2.5rem;
+}
+@media (max-width: 570px) {
+  .lightswitch {
+    flex-flow: column nowrap;
+  }
 }
 
 .lightswitch input[type=radio] {
@@ -267,7 +266,19 @@ a {
   filter: blur(0);
 }
 
+.number-input {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .number-input {
+    flex-flow: column nowrap;
+  }
+}
+
 .number-input button {
+  line-height: 50px;
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -446,9 +457,6 @@ a {
   color: #d49a9a;
   padding: 20px;
   font-size: 1.2rem;
-}
-.blogentry:last-of-type {
-  margin-bottom: 50px;
 }
 
 .blogimg {
