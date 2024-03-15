@@ -1,6 +1,6 @@
 # cyberpunk-2020-companion
 
-[Click on this link to see WiP](https://career404.github.io/cyberpunk-2020-companion/main/index.html)
+[Click on this link to see WiP](https://career200.github.io/cyberpunk-2020-companion/main/index.html)
 
 This is a tool for players and Referees to track character and world info, roll dice, and much more
 
